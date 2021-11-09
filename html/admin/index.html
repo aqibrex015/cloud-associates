@@ -1,103 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="golfresh" />
+    <meta name="keywords" content="golfresh" />
+    <meta name="author" content="golfresh" />
+    <link
+      rel="icon"
+      href="../assets/images/icon/logo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/images/icon/logo.png"
+      type="image/x-icon"
+    />
+    <title>Cloud</title>
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="golfresh">
-  <meta name="keywords" content="golfresh">
-  <meta name="author" content="golfresh">
-  <link rel="icon" href="../assets/images/icon/logo.png" type="image/x-icon">
-  <link rel="shortcut icon" href="../assets/images/icon/logo.png" type="image/x-icon">
-  <title>GolFresh</title>
+    <!--Google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
 
-  <!--Google font-->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="../assets/css/vendors/fontawesome.css"> -->
 
-  <!-- Icons -->
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" type="text/css" href="../assets/css/vendors/fontawesome.css"> -->
+    <!--Slick slider css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../assets/css/vendors/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../assets/css/vendors/slick-theme.css"
+    />
 
+    <!-- Animate icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../assets/css/vendors/animate.css"
+    />
 
+    <!-- Themify icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../assets/css/vendors/themify-icons.css"
+    />
 
-  <!--Slick slider css-->
-  <link rel="stylesheet" type="text/css" href="../../assets/css/vendors/slick.css">
-  <link rel="stylesheet" type="text/css" href="../../assets/css/vendors/slick-theme.css">
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../assets/css/vendors/bootstrap.css"
+    />
 
-  <!-- Animate icon -->
-  <link rel="stylesheet" type="text/css" href="../../assets/css/vendors/animate.css">
-
-  <!-- Themify icon -->
-  <link rel="stylesheet" type="text/css" href="../../assets/css/vendors/themify-icons.css">
-
-  <!-- Bootstrap css -->
-  <link rel="stylesheet" type="text/css" href="../../assets/css/vendors/bootstrap.css">
-
-  <link rel="stylesheet" href="../../assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../../assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="../../assets/css/owl.theme.default.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"
+    />
 
-  <!-- Theme css -->
-  <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="../../assets/css/style2.css">
+    <!-- Theme css -->
+    <!-- <link rel="stylesheet" type="text/css" href="../../assets/css/index.css" /> -->
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style2.css" />
 
+    <script src="../../assets/js/jquery-3.3.1.min.js"></script>
 
-  <script src="../../assets/js/jquery-3.3.1.min.js"></script>
+    <!-- slick js-->
+    <script src="../../assets/js/slick.js"></script>
+    <script src="../../assets/js/slick-animation.min.js"></script>
 
-  <!-- slick js-->
-  <script src="../../assets/js/slick.js"></script>
-  <script src="../../assets/js/slick-animation.min.js"></script>
+    <!-- menu js-->
+    <script src="../../assets/js/menu.js"></script>
 
-  <!-- menu js-->
-  <script src="../../assets/js/menu.js"></script>
+    <!-- lazyload js-->
+    <script src="../../assets/js/lazysizes.min.js"></script>
 
-  <!-- lazyload js-->
-  <script src="../../assets/js/lazysizes.min.js"></script>
+    <!-- Timer js-->
+    <!-- <script src="../../assets/js/timer.js"></script> -->
 
-  <!-- Timer js-->
-  <!-- <script src="../../assets/js/timer.js"></script> -->
+    <!-- Bootstrap js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/owl.carousel.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- Bootstrap js-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="../../assets/js/bootstrap.bundle.min.js"></script>
-  <script src="../../assets/js/owl.carousel.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <script src="../../assets/js/lightgallery-all.min.js"></script>
+    <script src="../../assets/js/lightgallery-all.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="../../assets/js/jquery.counterup.min.js"></script>
     <script src="../../assets/js/isotope.pkgd.min.js"></script>
 
-  <!-- Bootstrap Notification js-->
-  <script src="../../assets/js/bootstrap-notify.min.js"></script>
+    <!-- Bootstrap Notification js-->
+    <script src="../../assets/js/bootstrap-notify.min.js"></script>
 
-  <!-- Theme js-->
-  <!-- <script src="../../assets/js/theme-setting.js"></script> -->
-  <script src="../../assets/js/script.js"></script>
-  <script src="../../assets/js/custom-slick-animated.js"></script>
+    <!-- Theme js-->
+    <!-- <script src="../../assets/js/theme-setting.js"></script> -->
+    <script src="../../assets/js/script.js"></script>
+    <script src="../../assets/js/custom-slick-animated.js"></script>
+  </head>
 
+  <body class="theme-color-1">
+    <div class="banner-navigation">
+      <!-- header start -->
+      <header>
+        <div class="mobile-fix-option"></div>
 
-
-</head>
-
-<body class="theme-color-1">
-
-
-
-  <div class="banner-navigation">
-    <!-- header start -->
-    <header>
-      <div class="mobile-fix-option"></div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="main-menu">
-              <div class="menu-left">
-                <!-- <div class="navbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="main-menu">
+                <div class="menu-left">
+                  <!-- <div class="navbar">
                   <div id="mySidenav" class="sidenav">
                     <a
                       href="javascript:void(0)"
@@ -193,569 +225,787 @@
                     </nav>
                   </div>
                 </div> -->
-                <div class="brand-logo">
-                  <a href="index.html"><img src="../../assets/images/icon/cloud-computing.jpg"
-                      class="img-fluid blur-up lazyload" alt="" /></a>
+                  <div class="brand-logo">
+                    <a href="index.html"
+                      ><img
+                        src="../../assets/images/icon/cloud-logo.png"
+                        class="img-fluid blur-up lazyload"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+                <div class="menu-right pull-right">
+                  <div>
+                    <nav id="main-nav">
+                      <div class="toggle-nav">
+                        <i class="fa fa-bars sidebar-bar"></i>
+                      </div>
+                      <ul id="main-menu" class="sm pixelstrap sm-horizontal">
+                        <li>
+                          <div class="mobile-back text-end">
+                            Back<i
+                              class="fa fa-angle-right ps-2"
+                              aria-hidden="true"
+                            ></i>
+                          </div>
+                        </li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Why Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Our Process</a></li>
+
+                        <li class="mega" id="hover-cls">
+                          <a href="./brands.html"
+                            >Pricing Plans
+                            <!-- <div class="lable-nav">new</div> -->
+                          </a>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">My Contact</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div></div>
                 </div>
               </div>
-              <div class="menu-right pull-right">
-                <div>
-                  <nav id="main-nav">
-                    <div class="toggle-nav">
-                      <i class="fa fa-bars sidebar-bar"></i>
-                    </div>
-                    <ul id="main-menu" class="sm pixelstrap sm-horizontal">
-                      <li>
-                        <div class="mobile-back text-end">
-                          Back<i class="fa fa-angle-right ps-2" aria-hidden="true"></i>
-                        </div>
-                      </li>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Why Us</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Our Process</a></li>
-
-                      <li class="mega" id="hover-cls">
-                        <a href="./brands.html">Pricing Plans
-                          <!-- <div class="lable-nav">new</div> -->
-                        </a>
-                      </li>
-                      <li><a href="#">Contact</a></li>
-                      <li><a href="#">My Contact</a></li>
-                    </ul>
-                  </nav>
-                </div>
-                <div>
-                </div>
-              </div>
-
-
             </div>
           </div>
         </div>
-      </div>
+      </header>
 
-    </header>
+      <!-- header end -->
 
-    <!-- header end -->
-
-    <section class="p-0">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-lg-12 ">
-            <div class="title1  latest-products">
-              <div class=" online-add-products">
-                <div class="market-collection-lg">
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="col-12 col-lg-12">
-                        <h2 class="h2">We Create Applications with Excelent Technology</h2>
-
+      <section class="p-0">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-12">
+              <div class="title1 latest-products">
+                <div class="online-add-products">
+                  <div class="market-collection-lg">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-12 col-lg-12">
+                          <h2 class="h2">
+                            We Create Applications with Excelent Technology
+                          </h2>
+                        </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- Home slider -->
+    </div>
+    <section class="p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-12">
+            <div class="online-order online-shop-collection brand-carousel-lg">
+              <div class="">
+                <h4 class="h4">Trusted by industry leaders</h4>
+              </div>
+              <ul class="brand-carousel owl-carousel">
+                <li>
+                  <div class="slider-move">
+                    <img src="../../assets/images/icon/logo-Slack.png" />
+                  </div>
+                </li>
+                <li>
+                  <div class="slider-move">
+                    <img src="../../assets/images/icon/logo-Arcteryx.png" />
+                  </div>
+                </li>
+                <li>
+                  <div class="slider-move">
+                    <img src="../../assets/images/icon/logo-Overstock.png" />
+                  </div>
+                </li>
+                <li>
+                  <div class="slider-move">
+                    <img src="../../assets/images/icon/logo-Slack.png" />
+                  </div>
+                </li>
+                <li>
+                  <div class="slider-move">
+                    <img src="../../assets/images/icon/logo-Arcteryx.png" />
+                  </div>
+                </li>
+                <!-- <li class="caret-angle">
+                        <h6 class="h6">
+                            <i class="fa fa-caret-right"></i> This is how it works
+                        </h6>
+                    </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="left-progress-section">
+              <img src="../../assets/images/banners/progress1.png" />
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="right-progress-section mt-4">
+              <h3 class="h3">We provide variuos kind of service for you</h3>
+              <p>
+                It Is A Long Established Fact That A Reader Will Be Distracted
+                By The Readable Content Of A Page When Looking At Its Layout.
+                The Point Of Using Lorem Ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="right-progress-section mt-4">
+              <h3 class="h3">Track your progress with our advance site</h3>
+              <p>
+                It Is A Long Established Fact That A Reader Will Be Distracted
+                By The Readable Content Of A Page When Looking At Its Layout.
+                The Point Of Using Lorem Ipsum.
+              </p>
+              <hr />
+              <ul>
+                <li>
+                  <h6 class="h6">
+                    Invite Your Entire Team:
+                    <span>
+                      The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum
+                    </span>
+                  </h6>
+                </li>
+                <li>
+                  <h6 class="h6">
+                    Invite Your Entire Team:
+                    <span>
+                      The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum
+                    </span>
+                  </h6>
+                </li>
+                <li>
+                  <h6 class="h6">
+                    Invite Your Entire Team:
+                    <span>
+                      The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum
+                    </span>
+                  </h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="left-progress-section">
+              <img src="../../assets/images/banners/progress2.png" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Home slider -->
-  </div>
-  <section class="p-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-12">
-
-          <div class="online-order online-shop-collection">
-            <div class="">
-              <h4 class="h4">
-                Trusted by industry leaders
-              </h4>
-            </div>
-            <ul>
-              <li>
-                <h6 class="h6">
-                  <i class="fa fa-check"></i> Slack
-                </h6>
-              </li>
-              <li>
-                <h6 class="h6">
-                  <i class="fa fa-check"></i> ARC'TERYX
-                </h6>
-              </li>
-              <li>
-                <h6 class="h6">
-                  <i class="fa fa-check"></i> OverStock
-                </h6>
-              </li>
-              <li>
-                <h6 class="h6">
-                  <i class="fa fa-check"></i> Slack
-                </h6>
-              </li>
-              <li>
-                <h6 class="h6">
-                  <i class="fa fa-check"></i> ARC'TERYX
-                </h6>
-              </li>
-              <!-- <li class="caret-angle">
-                        <h6 class="h6">
-                            <i class="fa fa-caret-right"></i> This is how it works
-                        </h6>
-                    </li> -->
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-lg-6">
-          <div class="left-progress-section">
-            <img src="../../assets/images/banners/progress1.jpg">
-          </div>
-        </div>
-        <div class="col-12 col-lg-6">
-          <div class="right-progress-section mt-4">
-            <h3 class="h3">
-              We provide variuos kind of service for you
-            </h3>
-            <p>
-              Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface
-              without relying on meaningful content
-            </p>
-          </div>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-12 col-lg-6">
-          <div class="right-progress-section mt-4">
-            <h3 class="h3">
-              Track your progress with our advance site
-            </h3>
-            <p>
-              Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface
-              without relying on meaningful content
-            </p>
-            <hr>
-            <ul>
-              <li>
-                <h6 class="h6">
-                  Invite Your Entire Team: <span>
-                    Lorem ipsum is a placeholder text commonly used to demonstrate the visual
-                  </span>
-                </h6>
-
-              </li>
-              <li>
-                <h6 class="h6">
-                  Invite Your Entire Team: <span>
-                    Lorem ipsum is a placeholder text commonly used to demonstrate the visual
-                  </span>
-                </h6>
-
-              </li>
-              <li>
-                <h6 class="h6">
-                  Invite Your Entire Team: <span>
-                    Lorem ipsum is a placeholder text commonly used to demonstrate the visual
-                  </span>
-                </h6>
-
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6">
-          <div class="left-progress-section">
-            <img src="../../assets/images/banners/progress2.jpg">
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-  </section>
-
-
-  <section class="p-0">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-lg-12 ">
-          <div class="title1  latest-products">
-            <div class=" online-add-products">
-              <div class="technology-application-banner">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-12 col-lg-12">
-                      <h3 class="h3">We Need to stop interrupting what people are interested in & be what people are
-                        interested in.</h3>
-
+    <section class="p-0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-12">
+            <div class="title1 latest-products">
+              <div class="online-add-products">
+                <div class="technology-application-banner">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 col-lg-12">
+                        <h3 class="h3">
+                          We Need to stop interrupting what people are
+                          interested in & be what people are interested in.
+                        </h3>
+                        <div class="cloud-icon">
+                          <img src="../../assets/images/icon/cloud-image.png" />
+                        </div>
+                      </div>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="p-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-12">
-
-          <div class="online-order online-shop-collection">
-            <section class="section testimonial-section" id="testimonial-section">
-              <div class="container-fluid">
+    </section>
+    <section class="p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-12">
+            <div class="online-order online-shop-collection">
+              <section
+                class="section testimonial-section"
+                id="testimonial-section"
+              >
+                <div class="container-fluid">
                   <div class="row row-stretched">
-                      <div class="col-12 px-0">
-                          <div id="testimonial-slider" class="owl-carousel owl-theme">
-  
-                            <div class="item">
-                              <div class="testi-item">
-                                <div class="row">
-                                  <div class="col-lg-8">
-                                    <div class="testi-content">
-                                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, corporis
-                                          nihil voluptatum placeat perferendis vero praesentium hic, et debitis qui
-                                          laudantium nisi? Veniam, dignissimos sint. Lorem ipsum dolor sit amet
-                                          consectetur adipisicing elit. Illum, enim!</p>
-                                  </div>
-
-                                  <div class="testi-footer">
-                                      <p>John Doe</p>
-                                      <p>CEO & Founder Linking-Park</p>
-                                  </div>
-                                  </div>
-                                  <div class="col-lg-4">
-                                    <div class="testi-header">
-                                      <img src="../../assets/images/icon/slider2.jpg" alt="" srcset="">
-                                  </div>
-                                  </div>
+                    <div class="col-12 px-0">
+                      <div
+                        id="testimonial-slider"
+                        class="owl-carousel owl-theme"
+                      >
+                        <div class="item">
+                          <div class="testi-item">
+                            <div class="row">
+                              <div class="col-lg-8">
+                                <div class="testi-content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Ratione, corporis nihil
+                                    voluptatum placeat perferendis vero
+                                    praesentium hic, et debitis qui laudantium
+                                    nisi? Veniam, dignissimos sint. Lorem ipsum
+                                    dolor sit amet consectetur adipisicing elit.
+                                    Illum, enim!
+                                  </p>
                                 </div>
-                                  
-                                  
 
-                              </div>
-                          </div>
-  
-                              <div class="item">
-                                  <div class="testi-item">
-                                    <div class="row">
-                                      <div class="col-lg-8">
-                                        <div class="testi-content">
-                                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, corporis
-                                              nihil voluptatum placeat perferendis vero praesentium hic, et debitis qui
-                                              laudantium nisi? Veniam, dignissimos sint. Lorem ipsum dolor sit amet
-                                              consectetur adipisicing elit. Illum, enim!</p>
-                                      </div>
-  
-                                      <div class="testi-footer">
-                                          <p>John Doe</p>
-                                          <p>CEO & Founder Linking-Park</p>
-                                      </div>
-                                      </div>
-                                      <div class="col-lg-4">
-                                        <div class="testi-header">
-                                          <img src="../../assets/images/icon/slider3.jpg" alt="" srcset="">
-                                      </div>
-                                      </div>
-                                    </div>
-                                      
-                                      
-  
-                                  </div>
-                              </div>
-  
-                              <div class="item">
-                                <div class="testi-item">
-                                  <div class="row">
-                                    <div class="col-lg-8">
-                                      <div class="testi-content">
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, corporis
-                                            nihil voluptatum placeat perferendis vero praesentium hic, et debitis qui
-                                            laudantium nisi? Veniam, dignissimos sint. Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Illum, enim!</p>
-                                    </div>
-
-                                    <div class="testi-footer">
-                                        <p>John Doe</p>
-                                        <p>CEO & Founder Linking-Park</p>
-                                    </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                      <div class="testi-header">
-                                        <img src="../../assets/images/icon/slider4.jpg" alt="" srcset="">
-                                    </div>
-                                    </div>
-                                  </div>
-                                    
-                                    
-
+                                <div class="testi-footer">
+                                  <p>John Doe</p>
+                                  <p>CEO & Founder Linking-Park</p>
                                 </div>
+                              </div>
+                              <div class="col-lg-4">
+                                <div class="testi-header">
+                                  <img
+                                    src="../../assets/images/icon/slider2.jpg"
+                                    alt=""
+                                    srcset=""
+                                  />
+                                  <img class="slider-image-md" src="../../assets/images/icon/comas.png" >
+                                </div>
+                              </div>
                             </div>
-  
-  
-  
-  
                           </div>
-  
-  
+                        </div>
+
+                        <div class="item">
+                          <div class="testi-item">
+                            <div class="row">
+                              <div class="col-lg-8">
+                                <div class="testi-content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Ratione, corporis nihil
+                                    voluptatum placeat perferendis vero
+                                    praesentium hic, et debitis qui laudantium
+                                    nisi? Veniam, dignissimos sint. Lorem ipsum
+                                    dolor sit amet consectetur adipisicing elit.
+                                    Illum, enim!
+                                  </p>
+                                </div>
+
+                                <div class="testi-footer">
+                                  <p>John Doe</p>
+                                  <p>CEO & Founder Linking-Park</p>
+                                </div>
+                              </div>
+                              <div class="col-lg-4">
+                                <div class="testi-header">
+                                  <img
+                                    src="../../assets/images/icon/slider3.jpg"
+                                    alt=""
+                                    srcset=""
+                                  />
+                                  <img class="slider-image-md" src="../../assets/images/icon/comas.png" >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="testi-item">
+                            <div class="row">
+                              <div class="col-lg-8">
+                                <div class="testi-content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Ratione, corporis nihil
+                                    voluptatum placeat perferendis vero
+                                    praesentium hic, et debitis qui laudantium
+                                    nisi? Veniam, dignissimos sint. Lorem ipsum
+                                    dolor sit amet consectetur adipisicing elit.
+                                    Illum, enim!
+                                  </p>
+                                </div>
+
+                                <div class="testi-footer">
+                                  <p>John Doe</p>
+                                  <p>CEO & Founder Linking-Park</p>
+                                </div>
+                              </div>
+                              <div class="col-lg-4">
+                                <div class="testi-header">
+                                  <img
+                                    src="../../assets/images/icon/slider4.jpg"
+                                    alt=""
+                                    srcset=""
+                                  />
+                                  <img class="slider-image-md" src="../../assets/images/icon/comas.png" >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
+                    </div>
                   </div>
-              </div>
-  
-          </section>
+                </div>
+              </section>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section class="p-0 mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-12">
+            <div class="services-section">
+              <h6 class="h6">Our Services</h6>
+              <h3 class="h3">
+                We Need to stop interrupting what people are interested in & be
+                what people are interested in.
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-4 mb-4">
+          <div class="col-12 col-lg-4 px-0">
+            <div class="online-order online-shop-collection cards-solutions">
+              <ul class="px-0">
+                <li>
+                  <div class="technology-list">
+                    <img src="../../assets/images/icon/card1.png" />
+                  </div>
+                </li>
+                <li>
+                  <h6 class="h6">IT Design</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 px-0">
+            <div class="online-order online-shop-collection cards-solutions">
+              <ul class="px-0">
+                <li>
+                  <div class="technology-list">
+                    <img src="../../assets/images/icon/card2.png" />
+                  </div>
+                </li>
+                <li>
+                  <h6 class="h6">IT Management</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 px-0">
+            <div class="online-order online-shop-collection cards-solutions">
+              <ul class="px-0">
+                <li>
+                  <div class="technology-list">
+                    <img src="../../assets/images/icon/card3.png" />
+                  </div>
+                </li>
+                <li>
+                  <h6 class="h6">Data Security</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 px-0">
+            <div class="online-order online-shop-collection cards-solutions">
+              <ul class="px-0">
+                <li>
+                  <div class="technology-list">
+                    <img src="../../assets/images/icon/card4.png" />
+                  </div>
+                </li>
+                <li>
+                  <h6 class="h6">Infrastructure Plan</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 px-0">
+            <div class="online-order online-shop-collection cards-solutions">
+              <ul class="px-0">
+                <li>
+                  <div class="technology-list">
+                    <img src="../../assets/images/icon/card5.png" />
+                  </div>
+                </li>
+                <li>
+                  <h6 class="h6">Advancement Firewall</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 px-0">
+            <div class="online-order online-shop-collection cards-solutions">
+              <ul class="px-0">
+                <li>
+                  <div class="technology-list">
+                    <img src="../../assets/images/icon/card6.png" />
+                  </div>
+                </li>
+                <li>
+                  <h6 class="h6">Desktop Computing</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-4">
+          <div class="col-12 col-lg-12">
+            <div class="services-section">
+              <h2 class="h2">Stop Wasting Time And Money On Technology.</h2>
+              <h2 class="h2">
+                Try Cloud Associates <span>For Free Today</span>
+              </h2>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12 col-lg-12">
+                <div class="services-section right-arrow">
+                  <h6 class="h6">
+                    Try For Free
+                    <img src="../../assets/images/icon/arrow-right.png" />
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-12">
+            <div class="online-order online-shop-collection contact-section-lg">
+              <div class="row">
+                <div class="col-12 col-lg-9">
+                  <div class="">
+                    <h2 class="h2">Contact Us!</h2>
+                  </div>
+                  <div class="">
+                    <h5 class="h5">
+                      Already interested! Do you have any project to working
+                      with?
+                    </h5>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                  <div class="services-section next-arrow mt-4">
+                    <h6 class="h6">
+                      GET STARTED
+                      <img src="../../assets/images/icon/next-arrow.png" />
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="p-0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-12">
+            <div class="title1 latest-products">
+              <div class="online-add-products">
+                <div class="footer-cloud">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 col-lg-12">
+                        <div class="cloud-icon">
+                          <img src="../../assets/images/icon/logo.png" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-lg-12">
+                        <div class="sub-footer-links">
+                          <ul class="px-0">
+                            <li>© 2021 Cloud Associates All Rights Reserved</li>
+                            <li>
+                              <a href="#"> | Privacy Policy </a>
+                            </li>
+                            <li>
+                              <a href="#"> | Terms Of Service </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <script>
+      $(".brand-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+    </script>
 
+    <script>
+      AOS.init({
+        once: true,
+      });
 
-<script>
-  AOS.init({
-		once: true,
-	});
+      var heroSlider = $("#hero");
+      heroSlider
+        .on("initialized.owl.carousel changed.owl.carousel", function (e) {
+          if (!e.namespace) {
+            return;
+          }
+          var carousel = e.relatedTarget;
+          $(".slider-counter").text(
+            carousel.relative(carousel.current()) +
+              1 +
+              "/" +
+              "0" +
+              carousel.items().length
+          );
+        })
+        .owlCarousel({
+          items: 1,
+          margin: 50,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          // autoplayHoverPause: true,
+          loop: true,
+          center: true,
+          dots: true,
+          smartSpeed: 450,
+          navigation: true,
+          navigationText: ["", ""],
+          // dotsContainer: '.owl-dot',
+          singleItem: true,
+          animateIn: "fadeIn",
+          animateOut: "fadeOut",
+        });
 
-	var heroSlider = $("#hero");
-	heroSlider
-		.on("initialized.owl.carousel changed.owl.carousel", function (e) {
-			if (!e.namespace) {
-				return;
-			}
-			var carousel = e.relatedTarget;
-			$(".slider-counter").text(
-				carousel.relative(carousel.current()) +
-				1 +
-				"/" +
-				"0" +
-				carousel.items().length
-			);
-		})
-		.owlCarousel({
-			items: 1,
-			margin: 50,
-			autoplay: true,
-			autoplaySpeed: 2000,
-			// autoplayHoverPause: true,
-			loop: true,
-			center: true,
-			dots: true,
-			smartSpeed: 450,
-			navigation: true,
-			navigationText: ["", ""],
-			// dotsContainer: '.owl-dot',
-			singleItem: true,
-			animateIn: "fadeIn",
-			animateOut: "fadeOut",
-		});
+      // slider 1
 
-	// slider 1
+      jQuery("#speciliazation-slider").owlCarousel({
+        // items: 4,
+        margin: 0,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        // autoplayHoverPause: true,
+        loop: false,
+        dots: false,
+        smartSpeed: 450,
+        navigation: true,
+        navigationText: ["", ""],
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          575: {
+            items: 2,
+          },
+          767: {
+            items: 3,
+          },
+          991: {
+            items: 4,
+          },
+        },
+      });
 
-	jQuery("#speciliazation-slider").owlCarousel({
-		// items: 4,
-		margin: 0,
-		autoplay: false,
-		autoplaySpeed: 2000,
-		// autoplayHoverPause: true,
-		loop: false,
-		dots: false,
-		smartSpeed: 450,
-		navigation: true,
-		navigationText: ["", ""],
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 1,
-			},
-			575: {
-				items: 2,
-			},
-			767: {
-				items: 3,
-			},
-			991: {
-				items: 4,
-			},
-		},
-	});
+      $(".counter").counterUp({
+        delay: 5,
+        time: 1500,
+      });
+      $("#lightgallery").lightGallery({
+        pager: false,
+        share: false,
+        hash: false,
+      });
 
-	$(".counter").counterUp({
-		delay: 5,
-		time: 1500,
-	});
-	$("#lightgallery").lightGallery({
-		pager: false,
-		share: false,
-		hash: false,
-	});
+      var selector = jQuery("#speciliazation-slider");
+      // Custom Button
+      $(".customNextBtn").click(function () {
+        selector.trigger("next.owl.carousel");
+      });
+      $(".customPreviousBtn").click(function () {
+        selector.trigger("prev.owl.carousel");
+      });
 
-	var selector = jQuery("#speciliazation-slider");
-	// Custom Button
-	$(".customNextBtn").click(function () {
-		selector.trigger("next.owl.carousel");
-	});
-	$(".customPreviousBtn").click(function () {
-		selector.trigger("prev.owl.carousel");
-	});
+      // slider 2
+      jQuery("#professional-slider").owlCarousel({
+        items: 4,
+        margin: 0,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        // autoplayHoverPause: true,
+        loop: false,
+        dots: false,
+        smartSpeed: 450,
+        navigation: true,
+        navigationText: ["", ""],
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          575: {
+            items: 2,
+          },
+          767: {
+            items: 3,
+          },
+          991: {
+            items: 4,
+          },
+        },
+      });
 
-	// slider 2
-	jQuery("#professional-slider").owlCarousel({
-		items: 4,
-		margin: 0,
-		autoplay: false,
-		autoplaySpeed: 2000,
-		// autoplayHoverPause: true,
-		loop: false,
-		dots: false,
-		smartSpeed: 450,
-		navigation: true,
-		navigationText: ["", ""],
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 1,
-			},
-			575: {
-				items: 2,
-			},
-			767: {
-				items: 3,
-			},
-			991: {
-				items: 4,
-			},
-		},
-	});
+      var selector2 = jQuery("#professional-slider");
+      // Custom Button
+      $(".customNextBtn-2").click(function () {
+        selector2.trigger("next.owl.carousel");
+      });
+      $(".customPreviousBtn-2").click(function () {
+        selector2.trigger("prev.owl.carousel");
+      });
 
-	var selector2 = jQuery("#professional-slider");
-	// Custom Button
-	$(".customNextBtn-2").click(function () {
-		selector2.trigger("next.owl.carousel");
-	});
-	$(".customPreviousBtn-2").click(function () {
-		selector2.trigger("prev.owl.carousel");
-	});
+      // filters
+      $(".projects-filter__container").isotope(function () {
+        itemSelector: ".item";
+      });
 
-	// filters
-	$(".projects-filter__container").isotope(function () {
-		itemSelector: ".item";
-	});
+      $(".projects-filter__menu ul li").click(function () {
+        $(".projects-filter__menu ul li").removeClass("active");
+        $(this).addClass("active");
 
-	$(".projects-filter__menu ul li").click(function () {
-		$(".projects-filter__menu ul li").removeClass("active");
-		$(this).addClass("active");
+        var selector = $(this).attr("data-filter");
+        $(".projects-filter__container").isotope({
+          filter: selector,
+        });
+        return false;
+      });
 
-		var selector = $(this).attr("data-filter");
-		$(".projects-filter__container").isotope({
-			filter: selector,
-		});
-		return false;
-	});
+      // slider 0
 
-	// slider 0
+      jQuery("#testimonial-slider").owlCarousel({
+        items: 1,
+        margin: 50,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        autoplayHoverPause: true,
+        loop: true,
+        center: true,
+        dots: true,
+        smartSpeed: 450,
+        singleItem: true,
+      });
 
-	jQuery("#testimonial-slider").owlCarousel({
-		items: 1,
-		margin: 50,
-		autoplay: true,
-		autoplaySpeed: 2000,
-		autoplayHoverPause: true,
-		loop: true,
-		center: true,
-		dots: true,
-		smartSpeed: 450,
-		singleItem: true,
-	});
+      // company-slider
+      jQuery("#company-slider").owlCarousel({
+        loop: true,
+        items: 8,
+        autoplay: true,
+        // slideTransition: 'linear',
+        autoplaySpeed: 6000,
+        // smartSpeed: 6000,
+        dots: false,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 4,
+          },
+          575: {
+            items: 4,
+          },
+          767: {
+            items: 6,
+          },
+          991: {
+            items: 7,
+          },
+        },
+      });
 
-	// company-slider
-	jQuery("#company-slider").owlCarousel({
-		loop: true,
-		items: 8,
-		autoplay: true,
-		// slideTransition: 'linear',
-		autoplaySpeed: 6000,
-		// smartSpeed: 6000,
-		dots: false,
-		margin: 10,
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 4,
-			},
-			575: {
-				items: 4,
-			},
-			767: {
-				items: 6,
-			},
-			991: {
-				items: 7,
-			},
-		},
-	});
+      var selectorCompany = jQuery("#company-slider");
+      // Custom Button
+      $(".customNextBtn-2").click(function () {
+        selectorCompany.trigger("next.owl.carousel");
+      });
+      $(".customPreviousBtn-2").click(function () {
+        selectorCompany.trigger("prev.owl.carousel");
+      });
 
-	var selectorCompany = jQuery("#company-slider");
-	// Custom Button
-	$(".customNextBtn-2").click(function () {
-		selectorCompany.trigger("next.owl.carousel");
-	});
-	$(".customPreviousBtn-2").click(function () {
-		selectorCompany.trigger("prev.owl.carousel");
-	});
+      // slider 4
+      jQuery("#blog-slider").owlCarousel({
+        items: 3,
+        margin: 10,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        // autoplayHoverPause: true,
+        loop: false,
+        dots: false,
+        smartSpeed: 450,
+        navigation: true,
+        navigationText: ["", ""],
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          575: {
+            items: 1,
+          },
+          767: {
+            items: 2,
+          },
+          991: {
+            items: 3,
+          },
+        },
+      });
 
-	// slider 4
-	jQuery("#blog-slider").owlCarousel({
-		items: 3,
-		margin: 10,
-		autoplay: false,
-		autoplaySpeed: 2000,
-		// autoplayHoverPause: true,
-		loop: false,
-		dots: false,
-		smartSpeed: 450,
-		navigation: true,
-		navigationText: ["", ""],
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 1,
-			},
-			575: {
-				items: 1,
-			},
-			767: {
-				items: 2,
-			},
-			991: {
-				items: 3,
-			},
-		},
-	});
-
-	var selector3 = jQuery("#blog-slider");
-	// Custom Button
-	$(".customNextBtn-2").click(function () {
-		selector3.trigger("next.owl.carousel");
-	});
-	$(".customPreviousBtn-2").click(function () {
-		selector3.trigger("prev.owl.carousel");
-	});
-</script>
-
-
-</body>
-
+      var selector3 = jQuery("#blog-slider");
+      // Custom Button
+      $(".customNextBtn-2").click(function () {
+        selector3.trigger("next.owl.carousel");
+      });
+      $(".customPreviousBtn-2").click(function () {
+        selector3.trigger("prev.owl.carousel");
+      });
+    </script>
+  </body>
 </html>

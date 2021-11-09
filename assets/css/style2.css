@@ -162,7 +162,7 @@
   text-align: center;
 }
 .online-shop-collection h4.h4 {
-  color: rgb(71, 177, 204);
+  color: #004aab;
 }
 
 .site-feedback {
@@ -819,13 +819,6 @@
   width: 10%;
 }
 
-
-
-
-
-
-
-
 /* associate cloud css */
 .main-menu {
   position: relative;
@@ -858,12 +851,10 @@
   width: 100px;
 }
 
-
 .online-add-products {
-  
 }
 .banner-navigation {
-  background: url(../images/banners/banner.jpg);
+  background: url(../images/banners/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -872,7 +863,7 @@
   height: 25rem;
 }
 .technology-application-banner {
-  background: url(../images/banners/banner2.jpg);
+  background: url(../images/banners/banner2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -885,12 +876,15 @@
   font-weight: 600;
   color: #ffffff;
   text-transform: capitalize;
-  padding-top: 10rem;
+  padding-top: 3rem;
+  white-space: pre-line;
 }
 header {
   background-color: transparent;
 }
-.pixelstrap a, .pixelstrap a:hover, .pixelstrap a:active {
+.pixelstrap a,
+.pixelstrap a:hover,
+.pixelstrap a:active {
   color: #ffffff;
   font-size: 15px;
   font-weight: 500;
@@ -902,7 +896,7 @@ header {
   width: 300px;
 }
 .right-progress-section h3.h3 {
-  color: rgb(71, 177, 204);
+  color: #004aab;
   word-spacing: 2px;
   letter-spacing: 2px;
 }
@@ -911,7 +905,7 @@ header {
   letter-spacing: 2px;
 }
 .right-progress-section h6.h6 {
-  color: rgb(71, 177, 204);
+  color: #004aab;
 }
 .right-progress-section span {
   color: black;
@@ -923,81 +917,146 @@ header {
   width: 60px; */
 }
 .owl-item .testi-header img {
-  width: 200px;
+  width: 150px;
   border-radius: 50%;
   object-fit: cover;
-  height: 200px;
+  height: 150px;
   text-align: center;
   display: inline-block;
 }
 .testi-content {
   text-align: left;
 }
-.testi-content p , .testi-footer p {
-  color: rgb(71, 177, 204);
+.testi-content p,
+.testi-footer p {
+  color: #004aab;
 }
 .owl-item .testi-footer {
   text-align: left;
 }
-.owl-theme .owl-dots, .owl-theme .owl-nav {
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
   text-align: left;
 }
 .owl-carousel .owl-stage-outer {
   padding: 20px 0px;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #D6D6D6;
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #d6d6d6;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: rgb(71, 177, 204);
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #004aab;
 }
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
   outline: none;
 }
+.services-section {
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.services-section h6.h6 {
+  color: #6dacff;
+}
+.services-section h3.h3 {
+  color: #004aab;
+  white-space: pre-line;
+}
+.cards-solutions {
+  text-align: left;
+  margin: 0px;
+  padding: 4px 10px;
+}
+.cards-solutions:hover {
+  box-shadow: 0 2px 4px 0px rgb(134, 134, 245);
+}
+.technology-list {
+  width: 65px;
+  height: 65px;
+}
+.technology-list img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.services-section h2.h2 {
+  color: #004aab;
+  font-weight: 600;
+}
+.services-section span {
+  color: #6dacff;
+}
+.cloud-icon {
+  width: 200px;
+  height: 175px;
+  display: inline-block;
+}
+.cloud-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.services-section img {
+  width: 30px;
+}
+.right-arrow h6.h6 {
+  text-decoration: underline;
+  text-decoration-color: #004aab;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+.contact-section-lg {
+  background-color: #6dacff;
+  margin-bottom: -55px;
+  text-align: left;
+  border-radius: 10px;
+}
+.contact-section-lg h2.h2 {
+  color: #004aab;
+  font-weight: 700;
+}
+.contact-section-lg h5.h5 {
+  color: white;
+  font-weight: 600;
+}
+.footer-cloud {
+  background-color: #011842;
+  text-align: center;
+}
+.sub-footer-links ul li {
+  display: inline-block;
+  color: #6dacff;
+}
+.sub-footer-links ul li a {
+  color: #6dacff;
+  text-decoration: none;
+}
+.next-arrow h6.h6 {
+  color: #004aab;
+}
+.slider-move {
+  width: 150px;
+  height: 70px;
+}
+.slider-move img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.brand-carousel-lg .owl-carousel .owl-stage-outer {
+  padding: 0px;
+}
+.testi-header img.slider-image-md {
+  width: 74px;
+  position: absolute;
+  right: 40px;
+  object-fit: contain;
+}
 
 /* ///end associate cloud */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* end online orders */
 

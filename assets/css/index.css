@@ -1,0 +1,272 @@
+h1.h1 {
+    font-family: "Poppins", sans-serif;
+    color: #464255;
+    margin: 0px;
+    font-size: 35px;
+    font-weight: '700';
+  }
+  
+  h2.h2 {
+    font-family: "Poppins", sans-serif;
+    color: #464255;
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  h3.h3 {
+    font-family: "Poppins", sans-serif;
+    color: #464255;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  h4.h4 {
+    font-family: "Poppins", sans-serif;
+    color: #464255;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  h4.h4.fixed {
+    height: 35px;
+  }
+  
+  h5.h5 {
+    font-family: "Poppins", sans-serif;
+    color: #464255;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  h6.h6 {
+    font-family: "Poppins", sans-serif;
+    color: #464255;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  
+  p {
+    font-family: "Poppins", sans-serif;
+    color: #464255;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #A3A3A3;
+  }
+  
+  @media (min-width: 280px) and (max-width: 575px) {
+    h2.h2 {
+      font-size: 22px;
+    }
+    h4.h4 {
+      font-size: 12px;
+    }
+    h3.h3 {
+      font-size: 14px;
+    }
+    h5.h5 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+    h2.h2 {
+      font-size: 24px;
+    }
+    h4.h4 {
+      font-size: 13px;
+    }
+    h3.h3 {
+      font-size: 15px;
+    }
+    h5.h5 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    h2.h2 {
+      font-size: 26px;
+    }
+    h4.h4 {
+      font-size: 14px;
+    }
+    h3.h3 {
+      font-size: 18px;
+    }
+    h5.h5 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+  
+  .btn__theme {
+    font-family: "Poppins", sans-serif;
+    background: #795BF1;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #795BF1;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    position: relative;
+  }
+  
+  .btn__theme:hover {
+    color: #fff;
+  }
+  
+  .btn__theme:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+  }
+  
+  .btn__transparent {
+    font-family: "Poppins", sans-serif;
+    color: #795BF1;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
+  .btn__transparent:hover {
+    text-decoration: underline;
+    color: #464255;
+  }
+  
+  .btn__light {
+    border-color: #E0E0E0;
+    background-color: inherit;
+    color: #464255;
+  }
+  
+  .btn__light:hover {
+    color: #464255;
+  }
+  
+  .btn__with-icon {
+    background-color: rgba(171, 84, 219, 0.15);
+    color: #795BF1;
+    border: 1px solid #E0E0E0;
+    padding-left: 30px;
+  }
+  
+  .btn__with-icon::before {
+    position: absolute;
+    content: '';
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    left: 8px;
+    background-image: url(../images/icons/arrow-left.svg);
+  }
+  
+  .btn__with-icon:hover {
+    color: #795BF1;
+  }
+  
+  .btn__add {
+    padding-left: 30px;
+  }
+  
+  .btn__add::before {
+    position: absolute;
+    content: '';
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    left: 8px;
+    background-image: url(../images/icons/add-icon.svg);
+  }
+  
+  .btn__w100 {
+    width: 100%;
+  }
+  
+  .light-shadow {
+    width: 100%;
+  }
+  
+  .btn-theme__pink {
+    background-color: #f8dbe0;
+    color: #FF4365;
+    border: 1px solid #f8dbe0;
+  }
+  
+  .button-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .button-group.lessons-button {
+    margin-top: 100px;
+  }
+  
+  .button-group.btn-edit {
+    float: right;
+    margin-top: auto;
+    margin-bottom: 0px;
+  }
+  
+  span.badge {
+    padding: 6px 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  
+  span.badge.badge__success {
+    background-color: rgba(3, 201, 119, 0.1);
+    color: #03C977;
+  }
+  
+  span.badge.badge__pending {
+    background-color: rgba(255, 180, 92, 0.1);
+    color: #FFB45C;
+  }
+  
+  @media (min-width: 280px) and (max-width: 575px) {
+    .btn__theme {
+      font-size: 13px;
+      width: 220px;
+    }
+    .btn__transparent {
+      font-size: 12px;
+    }
+    .header-left .btn__with-icon::before {
+      position: absolute;
+    }
+    .header-left .btn__with-icon.btn__theme-icon::before {
+      width: 17px;
+      height: 17px;
+    }
+    .button-group .btn__theme {
+      width: unset;
+    }
+  }
