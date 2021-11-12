@@ -136,6 +136,72 @@ jQuery(document).ready(function($) {
 	// myTheme.Fancybox();
 
 
+	$('#nav-icon4').click(function () {
+        $(this).toggleClass('open');
+        $('.navbar-nav').toggleClass('active');
+        $('.overlay').toggleClass('active');
+
+    })
+
+    $('.overlay').click(function () {
+        $('.navbar-nav').toggleClass('active');
+        $('.overlay').removeClass('active');
+        $('#nav-icon4').removeClass('open');
+
+    })
+
+    $('.close-nav').click(function () {
+        $('.navbar-nav').removeClass('active');
+        $('.overlay').removeClass('active');
+    })
+
+    $('.nav-link').click(function () {
+        $('.navbar-nav').removeClass('active');
+        $('.overlay').removeClass('active');
+        $('#nav-icon4').removeClass('open');
+
+    })
+
+
+    window.addEventListener('scroll', (e) => {
+        const nav = document.querySelector('.nav');
+        if (window.pageYOffset > 200) {
+            $('header').addClass('mt-0')
+        } else {
+            $('header').removeClass('mt-0')
+        }
+    });
+
+	$("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        } // End if
+    });
+
+
+
+    // aos
+    AOS.init({
+        once: true
+    });
+
+
 	
 	
 

@@ -4,29 +4,19 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="golfresh" />
-    <meta name="keywords" content="golfresh" />
-    <meta name="author" content="golfresh" />
+
     <link
       rel="icon"
-      href="../assets/images/icon/logo.png"
-      type="image/x-icon"
-    />
-    <link
-      rel="shortcut icon"
-      href="../assets/images/icon/logo.png"
+      href="../../assets/images/icon/cloud-image.png"
       type="image/x-icon"
     />
     <title>Cloud</title>
 
     <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
 
@@ -38,69 +28,20 @@
     <!-- <link rel="stylesheet" type="text/css" href="../assets/css/vendors/fontawesome.css"> -->
 
     <!--Slick slider css-->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../../assets/css/vendors/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../../assets/css/vendors/slick-theme.css"
-    />
 
-    <!-- Animate icon -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../../assets/css/vendors/animate.css"
-    />
-
-    <!-- Themify icon -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../../assets/css/vendors/themify-icons.css"
-    />
-
-    <!-- Bootstrap css -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../../assets/css/vendors/bootstrap.css"
-    />
+    <link rel="stylesheet" href="../../assets/css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../assets/css/vendors/style.css" />
+    <link rel="stylesheet" href="../../assets/css/vendors/responsive.css" />
 
     <link rel="stylesheet" href="../../assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="../../assets/css/owl.theme.default.min.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"
-    />
 
-    <!-- Theme css -->
-    <!-- <link rel="stylesheet" type="text/css" href="../../assets/css/index.css" /> -->
-    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="../../assets/css/style2.css" />
-
-    <script src="../../assets/js/jquery-3.3.1.min.js"></script>
-
-    <!-- slick js-->
-    <script src="../../assets/js/slick.js"></script>
-    <script src="../../assets/js/slick-animation.min.js"></script>
+    <script src="../../assets/js/vendors/jquery.min.js"></script>
 
     <!-- menu js-->
     <script src="../../assets/js/menu.js"></script>
 
-    <!-- lazyload js-->
-    <script src="../../assets/js/lazysizes.min.js"></script>
-
-    <!-- Timer js-->
-    <!-- <script src="../../assets/js/timer.js"></script> -->
-
-    <!-- Bootstrap js-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="../../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../../assets/js/owl.carousel.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -109,185 +50,81 @@
     <script src="../../assets/js/jquery.counterup.min.js"></script>
     <script src="../../assets/js/isotope.pkgd.min.js"></script>
 
-    <!-- Bootstrap Notification js-->
-    <script src="../../assets/js/bootstrap-notify.min.js"></script>
-
-    <!-- Theme js-->
-    <!-- <script src="../../assets/js/theme-setting.js"></script> -->
-    <script src="../../assets/js/script.js"></script>
-    <script src="../../assets/js/custom-slick-animated.js"></script>
+    <script src="../../assets/js/vendors/main.js"></script>
   </head>
 
   <body class="theme-color-1">
     <div class="banner-navigation">
-      <!-- header start -->
-      <header>
-        <div class="mobile-fix-option"></div>
+      <div class="banner-overlay">
+        <!-- header start -->
+        <header class="pt-3 header">
+          <div class="container">
+            <div class="row row-stretched">
+              <div class="col-12 navbar-header-sm">
+                <nav class="navbar navbar-expand-lg">
+                  <div class="ham">
+                    <div class="show-nav" id="nav-icon4">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="brand-logo">
+                      <a href="index.html"
+                        ><img
+                          src="../../assets/images/icon/cloud-logo.png"
+                          class="img-fluid blur-up lazyload"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="main-menu">
-                <div class="menu-left">
-                  <!-- <div class="navbar">
-                  <div id="mySidenav" class="sidenav">
-                    <a
-                      href="javascript:void(0)"
-                      class="sidebar-overlay"
-                      onclick="closeNav()"
-                    ></a>
-                    <nav>
-                      <div onclick="closeNav()">
-                        <div class="sidebar-back text-start">
-                          <i
-                            class="fa fa-angle-left pe-2"
-                            aria-hidden="true"
-                          ></i>
-                          Market search
-                        </div>
-                      </div>
-                      <div class="market-search-bar">
-                        <div class="market-search-bar-top">
-                          <h5>GolFresh market</h5>
-                          <h5><span>Open</span>until 10:00 p.m.</h5>
-                          <h5>
-                            GolFresh Kai Hoffmann oHG, Gutenbergstr. 1b, 76761
-                            Rülzheim
-                          </h5>
-  
-                          <a href="#" class="text-btn">
-                            <h5>Show offers</h5>
-                          </a>
-                        </div>
-  
-                        <div class="market-search-bar-bottom contact-page">
-                          <div class="market-search-bar-bottom-title">
-                            <h4>Choose a different market</h4>
-                          </div>
-  
-                          <form class="theme-form">
-                            <div class="form-row">
-                              <label for="email"
-                                >ZIP code, city, street or market name</label
-                              >
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="zip"
-                              />
-                            </div>
-                          </form>
-  
-                          <div class="market-search-bar-bottom-data">
-                            <ul>
-                              <li>
-                                <h5>GolFresh market</h5>
-                                <h5><span>Open</span>until 10:00 p.m.</h5>
-                                <h5>
-                                  GolFresh Kai Hoffmann oHG, Gutenbergstr. 1b,
-                                  76761 Rülzheim
-                                </h5>
-  
-                                <a href="#" class="text-btn">
-                                  <h5>Choose market</h5>
-                                </a>
-                              </li>
-  
-                              <li>
-                                <h5>GolFresh market</h5>
-                                <h5><span>Open</span>until 10:00 p.m.</h5>
-                                <h5>
-                                  GolFresh Kai Hoffmann oHG, Gutenbergstr. 1b,
-                                  76761 Rülzheim
-                                </h5>
-  
-                                <a href="#" class="text-btn">
-                                  <h5>Choose market</h5>
-                                </a>
-                              </li>
-  
-                              <li>
-                                <h5>GolFresh market</h5>
-                                <h5><span>Open</span>until 10:00 p.m.</h5>
-                                <h5>
-                                  GolFresh Kai Hoffmann oHG, Gutenbergstr. 1b,
-                                  76761 Rülzheim
-                                </h5>
-  
-                                <a href="#" class="text-btn">
-                                  <h5>Choose market</h5>
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </nav>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#banner">Why Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Pricing Plans</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                      <li class="nav-item nav-item-next">
+                        <a class="nav-link" href="#contact">My Contact</a>
+                      </li>
+                    </ul>
                   </div>
-                </div> -->
-                  <div class="brand-logo">
-                    <a href="index.html"
-                      ><img
-                        src="../../assets/images/icon/cloud-logo.png"
-                        class="img-fluid blur-up lazyload"
-                        alt=""
-                    /></a>
-                  </div>
-                </div>
-                <div class="menu-right pull-right">
-                  <div>
-                    <nav id="main-nav">
-                      <div class="toggle-nav">
-                        <i class="fa fa-bars sidebar-bar"></i>
-                      </div>
-                      <ul id="main-menu" class="sm pixelstrap sm-horizontal">
-                        <li>
-                          <div class="mobile-back text-end">
-                            Back<i
-                              class="fa fa-angle-right ps-2"
-                              aria-hidden="true"
-                            ></i>
-                          </div>
-                        </li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Why Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Our Process</a></li>
-
-                        <li class="mega" id="hover-cls">
-                          <a href="./brands.html"
-                            >Pricing Plans
-                            <!-- <div class="lable-nav">new</div> -->
-                          </a>
-                        </li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">My Contact</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                  <div></div>
-                </div>
+                </nav>
               </div>
             </div>
           </div>
-        </div>
-      </header>
+        </header>
 
-      <!-- header end -->
+        <!-- header end -->
 
-      <section class="p-0">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12 col-lg-12">
-              <div class="title1 latest-products">
-                <div class="online-add-products">
-                  <div class="market-collection-lg">
-                    <div class="container-fluid">
-                      <div class="row">
-                        <div class="col-12 col-lg-12">
-                          <h2 class="h2">
-                            We Create Applications with Excelent Technology
-                          </h2>
+        <section class="p-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-12">
+                <div class="title1 latest-products">
+                  <div class="online-add-products">
+                    <div class="market-collection-lg">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-12 col-lg-12">
+                            <h1 class="h1">
+                              We Create Applications with Excelent Technology
+                            </h1>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -296,10 +133,10 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Home slider -->
+        <!-- Home slider -->
+      </div>
     </div>
     <section class="p-0">
       <div class="container">
@@ -352,7 +189,9 @@
           </div>
           <div class="col-12 col-lg-6">
             <div class="right-progress-section mt-4">
-              <h3 class="h3">We provide variuos kind of service for you</h3>
+              <h3 class="h3 mb-3">
+                We provide variuos kind of service for you
+              </h3>
               <p>
                 It Is A Long Established Fact That A Reader Will Be Distracted
                 By The Readable Content Of A Page When Looking At Its Layout.
@@ -364,35 +203,38 @@
         <div class="row">
           <div class="col-12 col-lg-6">
             <div class="right-progress-section mt-4">
-              <h3 class="h3">Track your progress with our advance site</h3>
+              <h3 class="h3 mb-3">Track your progress with our advance site</h3>
               <p>
                 It Is A Long Established Fact That A Reader Will Be Distracted
                 By The Readable Content Of A Page When Looking At Its Layout.
                 The Point Of Using Lorem Ipsum.
               </p>
               <hr />
-              <ul>
-                <li>
+              <ul class="team-list-lg">
+                <li class="mb-3">
                   <h6 class="h6">
                     Invite Your Entire Team:
                     <span>
-                      The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum
+                      The Readable Content Of A Page When Looking At Its Layout.
+                      The Point Of Using Lorem Ipsum
                     </span>
                   </h6>
                 </li>
-                <li>
+                <li class="mb-3">
                   <h6 class="h6">
                     Invite Your Entire Team:
                     <span>
-                      The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum
+                      The Readable Content Of A Page When Looking At Its Layout.
+                      The Point Of Using Lorem Ipsum
                     </span>
                   </h6>
                 </li>
-                <li>
+                <li class="mb-3">
                   <h6 class="h6">
                     Invite Your Entire Team:
                     <span>
-                      The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum
+                      The Readable Content Of A Page When Looking At Its Layout.
+                      The Point Of Using Lorem Ipsum
                     </span>
                   </h6>
                 </li>
@@ -400,7 +242,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="left-progress-section">
+            <div class="right-image-section">
               <img src="../../assets/images/banners/progress2.png" />
             </div>
           </div>
@@ -408,22 +250,26 @@
       </div>
     </section>
 
-    <section class="p-0">
+    <section class="p-0 pt-4">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-lg-12">
+          <div class="col-12 col-lg-12 px-0">
             <div class="title1 latest-products">
               <div class="online-add-products">
                 <div class="technology-application-banner">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-12 col-lg-12">
-                        <h3 class="h3">
-                          We Need to stop interrupting what people are
-                          interested in & be what people are interested in.
-                        </h3>
-                        <div class="cloud-icon">
-                          <img src="../../assets/images/icon/cloud-image.png" />
+                  <div class="banner-overlay">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-12 col-lg-12">
+                          <h3 class="h3">
+                            We Need to stop interrupting what people are
+                            interested in & be what people are interested in.
+                          </h3>
+                          <div class="cloud-icon">
+                            <img
+                              src="../../assets/images/icon/cloud-image.png"
+                            />
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -455,7 +301,7 @@
                           <div class="testi-item">
                             <div class="row">
                               <div class="col-lg-8">
-                                <div class="testi-content">
+                                <div class="testi-content mb-3">
                                   <p>
                                     Lorem ipsum dolor sit amet consectetur,
                                     adipisicing elit. Ratione, corporis nihil
@@ -469,7 +315,9 @@
 
                                 <div class="testi-footer">
                                   <p>John Doe</p>
-                                  <p>CEO & Founder Linking-Park</p>
+                                  <p class="carousel-pagination-title">
+                                    General Manager Company
+                                  </p>
                                 </div>
                               </div>
                               <div class="col-lg-4">
@@ -479,7 +327,10 @@
                                     alt=""
                                     srcset=""
                                   />
-                                  <img class="slider-image-md" src="../../assets/images/icon/comas.png" >
+                                  <img
+                                    class="slider-image-md"
+                                    src="../../assets/images/icon/comas.png"
+                                  />
                                 </div>
                               </div>
                             </div>
@@ -490,7 +341,7 @@
                           <div class="testi-item">
                             <div class="row">
                               <div class="col-lg-8">
-                                <div class="testi-content">
+                                <div class="testi-content mb-3">
                                   <p>
                                     Lorem ipsum dolor sit amet consectetur,
                                     adipisicing elit. Ratione, corporis nihil
@@ -504,7 +355,9 @@
 
                                 <div class="testi-footer">
                                   <p>John Doe</p>
-                                  <p>CEO & Founder Linking-Park</p>
+                                  <p class="carousel-pagination-title">
+                                    General Manager Company
+                                  </p>
                                 </div>
                               </div>
                               <div class="col-lg-4">
@@ -514,7 +367,10 @@
                                     alt=""
                                     srcset=""
                                   />
-                                  <img class="slider-image-md" src="../../assets/images/icon/comas.png" >
+                                  <img
+                                    class="slider-image-md"
+                                    src="../../assets/images/icon/comas.png"
+                                  />
                                 </div>
                               </div>
                             </div>
@@ -525,7 +381,7 @@
                           <div class="testi-item">
                             <div class="row">
                               <div class="col-lg-8">
-                                <div class="testi-content">
+                                <div class="testi-content mb-3">
                                   <p>
                                     Lorem ipsum dolor sit amet consectetur,
                                     adipisicing elit. Ratione, corporis nihil
@@ -539,7 +395,9 @@
 
                                 <div class="testi-footer">
                                   <p>John Doe</p>
-                                  <p>CEO & Founder Linking-Park</p>
+                                  <p class="carousel-pagination-title">
+                                    General Manager Company
+                                  </p>
                                 </div>
                               </div>
                               <div class="col-lg-4">
@@ -549,7 +407,10 @@
                                     alt=""
                                     srcset=""
                                   />
-                                  <img class="slider-image-md" src="../../assets/images/icon/comas.png" >
+                                  <img
+                                    class="slider-image-md"
+                                    src="../../assets/images/icon/comas.png"
+                                  />
                                 </div>
                               </div>
                             </div>
@@ -572,7 +433,7 @@
           <div class="col-12 col-lg-12">
             <div class="services-section">
               <h6 class="h6">Our Services</h6>
-              <h3 class="h3">
+              <h3 class="h3 mt-1">
                 We Need to stop interrupting what people are interested in & be
                 what people are interested in.
               </h3>
@@ -580,7 +441,7 @@
           </div>
         </div>
         <div class="row pt-4 mb-4">
-          <div class="col-12 col-lg-4 px-0">
+          <div class="col-12 col-lg-4 col-md-6 px-0">
             <div class="online-order online-shop-collection cards-solutions">
               <ul class="px-0">
                 <li>
@@ -594,7 +455,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-12 col-lg-4 px-0">
+          <div class="col-12 col-lg-4 col-md-6 px-0">
             <div class="online-order online-shop-collection cards-solutions">
               <ul class="px-0">
                 <li>
@@ -608,7 +469,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-12 col-lg-4 px-0">
+          <div class="col-12 col-lg-4 col-md-6 px-0">
             <div class="online-order online-shop-collection cards-solutions">
               <ul class="px-0">
                 <li>
@@ -622,7 +483,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-12 col-lg-4 px-0">
+          <div class="col-12 col-lg-4 col-md-6 px-0">
             <div class="online-order online-shop-collection cards-solutions">
               <ul class="px-0">
                 <li>
@@ -636,7 +497,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-12 col-lg-4 px-0">
+          <div class="col-12 col-lg-4 col-md-6 px-0">
             <div class="online-order online-shop-collection cards-solutions">
               <ul class="px-0">
                 <li>
@@ -650,7 +511,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-12 col-lg-4 px-0">
+          <div class="col-12 col-lg-4 col-md-6 px-0">
             <div class="online-order online-shop-collection cards-solutions">
               <ul class="px-0">
                 <li>
@@ -692,11 +553,11 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-12">
-            <div class="online-order online-shop-collection contact-section-lg">
+            <div class="online-order online-shop-collection contact-section-lg mt-4">
               <div class="row">
                 <div class="col-12 col-lg-9">
                   <div class="">
-                    <h2 class="h2">Contact Us!</h2>
+                    <h2 class="h2 mb-2">Contact Us!</h2>
                   </div>
                   <div class="">
                     <h5 class="h5">
@@ -706,7 +567,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-lg-3">
-                  <div class="services-section next-arrow mt-4">
+                  <div class="services-section next-arrow mt-3">
                     <h6 class="h6">
                       GET STARTED
                       <img src="../../assets/images/icon/next-arrow.png" />
@@ -722,7 +583,7 @@
     <section class="p-0">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-lg-12">
+          <div class="col-12 col-lg-12 px-0">
             <div class="title1 latest-products">
               <div class="online-add-products">
                 <div class="footer-cloud">
@@ -757,6 +618,16 @@
         </div>
       </div>
     </section>
+
+    <script>
+      $(document).ready(function () {
+        $(".menu-icon").click(function () {
+          $(".sidebar").toggleClass("sidebar-open"),
+            // $(this).toggleClass('open');
+            $(this).toggleClass("is-active");
+        });
+      });
+    </script>
 
     <script>
       $(".brand-carousel").owlCarousel({
